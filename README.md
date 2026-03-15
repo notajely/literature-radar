@@ -2,6 +2,14 @@
 
 arXiv paper discovery driven by your Zotero library. Automatically identifies your research interests, retrieves relevant papers, and uses Claude to write personalized recommendations.
 
+## Why Literature Radar?
+
+Keeping up with research is hard. Every week, thousands of papers hit arXiv. How do you find the ones that matter to *your* work?
+
+Literature Radar solves this by learning from your existing library. It analyzes papers you've already collected, identifies your research interests through **TF-IDF vectorization and K-means clustering**, then automatically searches arXiv for relevant new papers. Claude reviews the top candidates and writes personalized recommendations explaining why each paper matters to your work.
+
+Inspired by [research-assist](https://github.com/zhanglg12/research-assist), but built for researchers who want a lightweight, reproducible workflow.
+
 ## How it works
 
 ```
